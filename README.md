@@ -1,10 +1,12 @@
 # Weather REST API
 
-
 ## Microserviciile utilizate (si combinate folosind utilitarul docker-compose)
 - REST API (am folosit Flask pentru gestionarea de raspunsuri HTTP)
 - Baza de date meteorologice (PostgreSQL)
 - Utilitar de gestiune al bazei de date
+
+## Rularea codului
+docker-compose up -d --build
 
 ## Rutele implementate
 ### Pentru tari:
