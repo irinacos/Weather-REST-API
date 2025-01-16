@@ -42,8 +42,8 @@ Codurile HTTP folosite/returnate:
 - 201 CREATED: Adaugarea unei/unor linii in una dintre cele 3 tabele
 - 400 BAD REQUEST: Utilizatorul a gresit cererea HTTP (parametrii lipsa)
 - 404 NOT FOUND: 
-    -- Parametrii invalizi, nu se regasesc in baza de date
-    -- Cheie straina invalida (in cazul de fata, id-ul tarii atunci cand 
+    - Parametrii invalizi, nu se regasesc in baza de date
+    - Cheie straina invalida (in cazul de fata, id-ul tarii atunci cand 
     ne uitam in tabela Orase sau id-ul orasului cand ne uitam in 
     tabela Temperaturi): exceptie psycopg2.errors.ForeignKeyViolation
 - 409 CONFLICT: Nu se respecta constrangerile de unicitate ale entitatilor
