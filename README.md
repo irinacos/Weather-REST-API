@@ -1,4 +1,4 @@
-# Tema 2 - Microservicii & Docker
+# Weather REST API
 
 
 ## Microserviciile utilizate (si combinate folosind utilitarul docker-compose)
