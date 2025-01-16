@@ -6,16 +6,21 @@
 - Utilitar de gestiune al bazei de date
 
 ## Rulare
+```
 git clone https://github.com/irinacos/Weather-REST-API.git
 cd Weather-REST-API
 docker-compose up -d --build
+```
 - API REST: http://localhost:6000
 - pgAdmin: http://localhost:8080
     - Email: admin@admin.com
     - Parolă: admin
 Se pot folosi tool-uri precum Postman sau scripturi JSON pentru
 introducerea si prelucrarea datelor in tabelele furnizate.
-Oprire containere: docker-compose down
+Oprire containere:
+```
+docker-compose down
+```
 
 ## Rutele implementate
 ### Pentru tari:
